@@ -1,0 +1,15 @@
+.Footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #cdcdcd;
+    padding: 5px 0;
+}
+
+.Footer a:link,
+.Footer a:visited,
+.Footer a:hover,
+.Footer a:active {
+    color: #cdcdcd;
+    text-decoration: none;
+}

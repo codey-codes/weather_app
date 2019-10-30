@@ -1,0 +1,17 @@
+.Btn {
+    padding: 10px;
+    margin: 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    transition: transform .3s;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid #cdcdcd;
+    color: #cdcdcd;
+}
+
+.Btn:hover {
+    transform: translateY(2px);
+    cursor: pointer;
+}

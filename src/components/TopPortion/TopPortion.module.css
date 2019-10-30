@@ -1,0 +1,23 @@
+.TopPortion {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.TopPortion > div {
+    font-size: 18px;
+    color: #cdcdcd;
+    text-align: center;
+}
+
+.Span:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .TopPortion {
+        padding: 10px 0 5px;
+
+    }
+
+}

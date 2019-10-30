@@ -1,0 +1,195 @@
+.CenterPortion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.WeatherPrimary {
+    margin: 20px 0;
+    padding-left: 30px;
+    flex: 1 0 50%;
+}
+
+.WeatherPrimary h1 {
+    font-family: 'Lato', sans-serif;
+    color: #cdcdcd;
+    font-size: 70px;
+    font-weight: 300;
+    display: inline;
+}
+
+.WeatherPrimary h2 {
+    color: #cdcdcd;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.WeatherPrimary p {
+    color: #cdcdcd;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.WeatherPrimary i {
+    color: #cdcdcd;
+    font-size: 70px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.WeatherSecondary {
+    margin: 20px 0;
+    padding-right: 30px;
+    flex: 1 0 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.WeatherSecondary p {
+    color: #cdcdcd;
+    font-size: 30px;
+    text-align: right;
+}
+
+.WeatherSecondary p span {
+    font-size: 14px;
+}
+
+.WeatherHourly {
+    flex: 1 0 100%;
+    height: auto;
+    padding: 5px 20px;
+    color: #cdcdcd;
+}
+
+.WeatherHourly > p {
+    margin-bottom: 10px;
+}
+
+.WeatherHourly > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NextWeather {
+    color: #cdcdcd;
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+    padding: 10px 0;
+}
+
+.NextWeather i {
+    font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+    .WeatherPrimary {
+        padding-left: 5px;
+        margin: 0 0 5px;
+    }
+
+    .WeatherPrimary h1,
+    .WeatherPrimary i {
+        font-size: 40px;
+    }
+    
+    .WeatherPrimary h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .WeatherSecondary {
+        margin: 0 0 5px;        
+        padding-right: 5px;
+        justify-content: center;
+    }
+
+    .WeatherSecondary p {
+        font-size: 20px;
+    }
+    
+    .WeatherSecondary p span {
+        font-size: 13px;
+    }
+
+    .WeatherHourly {
+        padding: 0 5px;
+        margin: 5px 0;
+        width: 95%;
+        border-top: 1px solid #cdcdcd;
+        border-bottom: 1px solid #cdcdcd;
+    }
+
+    .WeatherHourly > p {
+        margin: 5px 0;
+    }
+
+    .NextWeather {
+        border: none;
+    }
+
+    .NextWeather p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .WeatherPrimary h1 {
+        font-size: 30px;
+    }
+    
+    .WeatherPrimary i {
+        font-size: 30px;
+        margin-right: 2px;
+    }
+
+    .WeatherPrimary h2 {
+        font-size: 18px;
+    }
+
+    .WeatherPrimary p {
+        margin: 0;
+    }
+
+    .WeatherSecondary p {
+        font-size: 16px;
+        margin: 2px 0;
+    }
+
+    .WeatherHourly > p {
+        font-size: 14px;
+    }
+    
+    .WeatherSecondary p span {
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
+
+    .NextWeather {
+        padding: 2px 0;
+    }
+
+    .NextWeather i {
+        font-size: 20px;
+    }
+
+    .NextWeather p {
+        font-size: 14px;
+    }
+}
