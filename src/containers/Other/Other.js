@@ -52,13 +52,13 @@ const functions = {
         return icon;
     },
     getDayName: value => {
-        if (value === 0) value = 'Mon'
-        if (value === 1) value = 'Tue'
-        if (value === 2) value = 'Wed'
-        if (value === 3) value = 'Thu'
-        if (value === 4) value = 'Fri'
-        if (value === 5) value = 'Sat'
-        if (value === 6) value = 'Sun'
+        if (value === 0) value = 'Sun'
+        if (value === 1) value = 'Mon'
+        if (value === 2) value = 'Tue'
+        if (value === 3) value = 'Wed'
+        if (value === 4) value = 'Thu'
+        if (value === 5) value = 'Fri'
+        if (value === 6) value = 'Sat'
         return value;
     },
     convertTimeFormat: time => {
